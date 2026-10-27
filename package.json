@@ -1,0 +1,12 @@
+{
+  "name": "level-one-skills",
+  "private": true,
+  "type": "module",
+  "description": "Domain-generic agentic skills pack for Cursor and compatible agents",
+  "scripts": {
+    "validate": "node scripts/validate-pack.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,26 @@
+---
+description: Level One base policy — apply standing skills and run dispatcher every request.
+alwaysApply: true
+---
+
+# Level One base policy
+
+Standing company policy. Skills live under `.agents/skills/` — HQ in `base/`, one folder per job org. Depth lives in those files; this rule only binds them.
+
+## Always on — follow every request (`base/`)
+
+- `dispatcher`
+- `agent-talk`
+- `agent-plan`
+- `verification-floor`
+- `hard-safety`
+
+## Writing floor — when its triggers hit
+
+- `asd-ste100` — apply when English will be parsed by another agent or misreading is costly; not for creative/marketing copy. See that skill’s description.
+
+## Dispatcher first
+
+At the start of every request, run `dispatcher`: classify size and shape, state which job orgs are on, then **open each staffed org’s `SKILL.md` and follow it**. Job orgs stay discoverable; staff them via dispatcher, or when Cursor/user already matched one with justification.
+
+Do not paste full skill checklists here — open the `SKILL.md` files.
